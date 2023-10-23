@@ -1,5 +1,3 @@
-const App = () => (
-  <h1>TrainerPal</h1>
-);
+const App = () => <>TrainerPal</>;
 
 export default App;
