@@ -1,8 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 
+import WelcomeScreen from "./screens/Welcome";
+
 export default createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world</div>,
+    element: <WelcomeScreen />,
   },
 ]);
