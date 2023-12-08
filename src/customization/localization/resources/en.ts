@@ -25,5 +25,28 @@ export default {
       next: "Next",
       finish: "Proceed to my goals",
     },
+    signUp: {
+      title: "Welcome aboard",
+      subtitle: "We are happy to have you there.",
+      buttonTitle: "Sign up",
+      fields: {
+        email: {
+          label: "Email",
+          placeholder: "Your email",
+        },
+        password: {
+          label: "Password",
+          placeholder: "Your password",
+        },
+        firstName: {
+          label: "First name",
+          placeholder: "Your first name",
+        },
+        lastName: {
+          label: "Last name",
+          placeholder: "Your last name",
+        },
+      },
+    },
   },
 };
