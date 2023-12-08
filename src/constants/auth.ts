@@ -13,6 +13,16 @@ export const SIGN_UP_INPUT_FIELDS: SignUpInputField[] = [
     placeholder: "signUp.fields.password.placeholder",
     type: "password",
   },
+];
+
+export const PASSWORD_REQUIREMENTS_FIELDS = [
+  "lowercase",
+  "uppercase",
+  "digit",
+  "symbol",
+];
+
+export const NAME_INPUT_FIELDS = [
   {
     name: "firstName",
     label: "signUp.fields.firstName.label",

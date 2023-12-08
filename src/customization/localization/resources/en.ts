@@ -33,18 +33,22 @@ export default {
         email: {
           label: "Email",
           placeholder: "Your email",
+          error: "Invalid email",
+          required: "Email required",
         },
         password: {
           label: "Password",
           placeholder: "Your password",
-        },
-        firstName: {
-          label: "First name",
-          placeholder: "Your first name",
-        },
-        lastName: {
-          label: "Last name",
-          placeholder: "Your last name",
+          error: "Invalid password",
+          required: "Password required",
+          requirements: {
+            title: "Password requirements",
+            subtitle: "A good password should include:",
+            lowercase: "One lowercase letter",
+            uppercase: "One uppercase letter",
+            digit: "One digit",
+            symbol: "One special symbol like @, ! etc.",
+          },
         },
       },
     },
