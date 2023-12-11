@@ -29,7 +29,7 @@ const OnboardingScreen = () => {
 
   return (
     <ScreenContainer>
-      <section className="flex flex-col flex-grow py-[24px] px-[48px]">
+      <section className="flex flex-col flex-grow pb-[24px] px-[48px]">
         <OnboardingSteps currentStep={currentStep} />
         <article className="flex flex-col flex-grow">
           <div className="flex-grow flex-col items-center flex justify-between my-[30px]">
@@ -41,7 +41,7 @@ const OnboardingScreen = () => {
               {t(`onboarding.${step}.text`)}
             </p>
           </div>
-          <div className="mx-auto w-1/3">
+          <div className="mx-auto w-1/3 max-md:w-full max-md:px-[24px] max-lg:w-2/3">
             <Button onClick={onButtonClick} text={buttonText} />
           </div>
         </article>

@@ -9,7 +9,7 @@ const SignUpScreen = () => {
     <ScreenContainer>
       <div className="w-full h-full flex items-center">
         <section className="flex-grow flex flex-col items-center justify-center">
-          <div className="w-1/2">
+          <div className="w-1/2 max-md:w-full max-md:px-[24px] max-lg:w-2/3">
             <h1 className="font-bold text-center text-4xl">
               {t("signUp.title")}
             </h1>
@@ -19,7 +19,11 @@ const SignUpScreen = () => {
             <SignUpForm />
           </div>
         </section>
-        <img alt="Gym picture" src={GymImage} className="w-1/2 h-full" />
+        <img
+          alt="Gym picture"
+          src={GymImage}
+          className="w-1/2 h-full max-xl:hidden"
+        />
       </div>
     </ScreenContainer>
   );

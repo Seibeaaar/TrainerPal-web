@@ -31,7 +31,7 @@ const OnboardingSteps: React.FC<IOnboardingStepsProps> = ({ currentStep }) => {
     [t, currentStep, ONBOARDING_STEPS],
   );
 
-  return <Steps items={stepTitles} responsive />;
+  return <Steps items={stepTitles} responsive={false} className="my-[24px]" />;
 };
 
 export default OnboardingSteps;
